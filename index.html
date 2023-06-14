@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <!--  class="scrool-smooth"  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@200;400;600;700;900&family=Montserrat:wght@100&family=Nerko+One&family=Oswald:wght@300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Belajar Tailwind css</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script>
+      tailwind.config = {
+        // darkMode: "class",
+        // theme: {
+        //   extend: {
+        //     spacing: {
+        //       13: "3.25rem",
+        //     },
+        //     colors: {
+        //       clifford: "#da373d",
+        //     },
+        //     fontFamily: {
+        //       inter: ["Inter"],
+        //       dancing: ["Dancing"],
+        //       mon: ["Montserrat"],
+        //     },
+        //     colors: {
+        //       aku: "#c0ffee",
+        //     },
+        //     animation: {
+        //       "spin-slow": "spin 3s linear infinite",
+        //       goyang: "goyang 3s ease-in-out infinite",
+        //     },
+        //     keyframes: {
+        //       goyang: {
+        //         "0%, 100%": { transform: "rotate(-5deg)" },
+        //         "50%": { transform: "rotate(5deg)" },
+        //       },
+        //     },
+        //     keyframes: {
+        //       weggle: {
+        //         "0%, 100%": { transform: "rotate(-3deg)" },
+        //         "50%": { transform: "rotate(3deg)" },
+        //       },
+        //     },
+        //   },
+        // },
+      };
+    </script>
+  </head>
+  <body class="dark:bg-slate-800 dark:text-slate-200">
+    <h1 class="0 my-10 text-center text-6xl font-bold">
+      Hello world, mari kita
+      <span
+        class="bg-gradient-to-r from-orange-400 to-blue-600 bg-clip-text text-transparent"
+      >
+        belajar tailwind css
+      </span>
+    </h1>
+    <!-- Spacing start -->
+    <section
+      class="mb-4 bg-gradient-to-tr from-indigo-200 via-red-400 to-yellow-300"
+    >
+      <h2 class="text-center text-3xl font-semibold">Belajar Spacing</h2>
+      <input type="gmail" class="mt-10" />
+      <div class="m-13 bg-green-400">margin</div>
+      <div class="bg-yellow-200 p-8 text-center font-semibold text-slate-700">
+        Padding
+      </div>
+    </section>
+    <!-- spacing end -->
+
+    <section class="mb-10 bg-red-200">
+      <h2 class="mb-4">Sizing</h2>
+      <div class="h-32 w-32 bg-aku">kotak 1</div>
+    </section>
+
+    <section class="mx-auto mb-96 max-w-3xl font-inter">
+      <h2 class="mb-4 text-4xl font-bold">
+        Belajar mengenai typography pada tailwindcss
+      </h2>
+      <div class="mb-4 text-lg text-gray-500">
+        by
+        <a href="#" class="text-green-700 hover:text-blue-700"
+          >Rizwan Maulana
+        </a>
+        2 januari 2023
+      </div>
+      <p class="mb-4">
+        Lorem
+        <a
+          href="#"
+          class="font-semibold text-blue-500 underline hover:text-red-500"
+          >ipsum</a
+        >
+        ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam porro
+        dolores impedit, voluptas at doloribus? Dolore modi, nihil mollitia
+        totam autem cum eligendi voluptate, tempora quo, nam amet exercitationem
+        numquam perferendis. Facilis dolores nobis fugiat saepe id tempora, nam
+        adipisci pariatur nemo temporibus soluta ex minima officia reprehenderit
+        deserunt ut.
+      </p>
+
+      <blockquote class="mb-4 font-thin italic underline">
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ullam
+        dolores, vel architecto placeat corporis necessitatibus ipsam inventore
+        aliquam quasi eos possimus voluptatem aliquid quas id officia voluptas.
+        In, deserunt!"
+      </blockquote>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ullam
+        eligendi architecto. Commodi excepturi quaerat magni beatae libero saepe
+        itaque ipsa assumenda sed officiis vitae tenetur pariatur, inventore
+        fuga nam!
+      </p>
+    </section>
+    <!-- Membuat background text dengan gambar -->
+    <div
+      class="mx-auto mt-[42px] h-96 max-w-xl overflow-y-scroll bg-[#bada55] bg-local"
+      style="
+        background-image: url('https://source.unsplash.com/1000x600?computer');
+      "
+    >
+      <p class="p-5 font-serif text-2xl text-slate-200">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        atque in optio unde ipsum, nisi quia. Nihil ipsa porro veniam fugiat
+        minus! Et laudantium a rem, exercitationem alias molestias voluptatem
+        error maxime velit corporis eligendi cumque, reprehenderit vero ipsum
+        vel totam modi atque numquam sequi praesentium. Blanditiis eius, eos
+        quidem praesentium a soluta nobis et facere culpa unde totam dolore,
+        voluptas corporis quia at iste reiciendis quo facilis, perferendis esse
+        explicabo. Quisquam libero rem repellendus nam quidem perferendis soluta
+        debitis a ut molestias accusantium, harum quasi. Repellat cupiditate ex,
+        ea reiciendis, atque, nemo quae nihil quisquam ad molestias laboriosam
+        praesentium eos. Cupiditate omnis neque doloremque quis inventore.
+        Cumque omnis modi repudiandae eligendi illum dolore labore. Dolor ut
+        veniam nam minus, quidem perspiciatis non ex optio omnis ipsum
+        exercitationem accusamus quo deleniti dignissimos magni tenetur adipisci
+        accusantium asperiores odit, corporis nihil repellat rerum! Quibusdam
+        debitis placeat magnam illum minima maiores, cumque a accusamus.
+        Perferendis, consequuntur ipsa labore iure nihil, temporibus nemo
+        architecto maiores neque excepturi at corrupti in dolor asperiores
+        officia soluta dignissimos earum perspiciatis aut veniam hic. Voluptate
+        repellendus saepe perferendis, sunt rerum enim minus quam numquam
+        doloribus excepturi perspiciatis, nostrum temporibus dolor voluptates
+        eaque unde ut dolorem at tempore!
+      </p>
+    </div>
+    <!-- Membuat efek-efek untuk gambar -->
+    <div
+      class="mx-auto mt-32 h-96 max-w-xl overflow-hidden rounded-2xl border-8 bg-slate-400 bg-cover bg-no-repeat bg-blend-multiply shadow-xl shadow-slate-600"
+      style="background-image: url(./img/2.jpg)"
+    >
+      <div class="h-full w-full bg-blue-400 mix-blend-multiply"></div>
+    </div>
+
+    <div
+      class="mx-auto mt-32 h-96 max-w-xl overflow-hidden rounded-2xl border-8 bg-slate-400 bg-cover bg-no-repeat bg-blend-multiply shadow-xl shadow-slate-600 blur-sm brightness-110 hover:blur-none"
+      style="background-image: url(./img/2.jpg)"
+    ></div>
+
+    <div
+      class="mx-auto mt-32 flex h-96 max-w-xl overflow-hidden rounded-2xl border-8 bg-slate-400 bg-cover bg-no-repeat bg-blend-multiply shadow-xl shadow-slate-600"
+      style="background-image: url(./img/2.jpg)"
+    >
+      <div
+        class="m-auto h-[200px] w-[200px] rounded-full bg-white/30 backdrop-blur-md"
+      ></div>
+    </div>
+
+    <hr class="my-20" />
+    <!-- Membuat Tombol dark mode -->
+    <div class="mb-5 flex justify-center">
+      <span>Dark</span>
+      <input type="checkbox" id="toggle" class="hidden" />
+      <label for="toggle">
+        <div
+          class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1"
+        >
+          <div class="toggle-circle h-4 w-4 rounded-full bg-white"></div>
+        </div>
+      </label>
+      <span>Light</span>
+    </div>
+    <!-- Membuat tombol interactive -->
+    <button
+      class="mx-auto block rounded-full bg-blue-500 px-4 py-4 font-inter font-semibold text-white hover:bg-blue-300 hover:font-serif hover:text-sky-900 focus:ring-sky-300 active:bg-sky-700 dark:bg-slate-200 dark:text-slate-800 dark:hover:bg-slate-100 dark:hover:text-slate-900"
+    >
+      Simpan here
+    </button>
+
+    <!-- Membuat Kartu ucapan -->
+    <div
+      class="group mx-auto my-10 max-w-lg rounded-xl border border-slate-300 p-5 font-inter shadow-md hover:bg-sky-600 dark:hover:bg-slate-300"
+    >
+      <h5
+        class="mb-3 text-lg font-bold text-slate-500 group-hover:text-white dark:text-slate-200 dark:group-hover:text-slate-800"
+      >
+        My Card
+      </h5>
+      <p
+        class="text-slate-400 selection:bg-lime-300 selection:text-slate-900 group-hover:font-serif group-hover:text-white dark:group-hover:text-slate-800"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet optio
+        magni laborum dignissimos suscipit esse ipsa deserunt alias labore,
+        iusto dolor minus excepturi, quaerat dolores? Consectetur repellat
+        aliquid tempora ratione?
+      </p>
+    </div>
+
+    <div
+      class="group mx-auto my-10 max-w-lg rounded-xl border border-slate-300 p-5 font-inter shadow-md hover:bg-sky-600"
+    >
+      <h5
+        class="mb-3 text-lg font-bold text-slate-700 group-hover:text-white dark:text-slate-200"
+      >
+        My Card
+      </h5>
+      <p
+        class="text-slate-400 first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-line:uppercase first-line:tracking-widest selection:bg-lime-300 selection:text-slate-900 group-hover:font-serif group-hover:text-white"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet optio
+        magni laborum dignissimos suscipit esse ipsa deserunt alias labore,
+        iusto dolor minus excepturi, quaerat dolores? Consectetur repellat
+        aliquid tempora ratione?
+      </p>
+    </div>
+    <!-- Membuat falidator Email -->
+    <div
+      class="mx-auto max-w-lg rounded-xl border border-slate-500 p-5 font-inter shadow-md"
+    >
+      <form action="">
+        <label for="email">
+          <h2 class="text-center">Label</h2>
+          <span
+            class="mb-2 block font-semibold text-slate-700 after:ml-0.5 after:text-red-500 after:content-['*'] dark:text-slate-200"
+          >
+            Email</span
+          >
+          <input
+            type="email"
+            id="email"
+            placeholder="masukan email.."
+            class="peer block w-full rounded border px-3 py-2 text-sm shadow placeholder:text-slate-400 invalid:text-red-600 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-400 invalid:focus:border-red-500 invalid:focus:ring-red-500"
+          />
+          <p class="invisible m-1 text-sm text-red-500 peer-invalid:visible">
+            Email tidak valid
+          </p>
+        </label>
+      </form>
+    </div>
+
+    <hr class="my-5 bg-sky-500" />
+    <!-- membuat animation -->
+    <div style="text-align: center">
+      di bawah ini adalah conton transform yang tanpa ada elemen pembungkusnya,
+      sehingga menyebabkan eleen akan patah-patah jika kursor tidak pada posisi
+      yang tepat
+      <div
+        class="mx-auto my-10 h-40 w-40 rounded-lg bg-sky-400 shadow-lg transition hover:translate-x-40 hover:rotate-45 hover:scale-150 hover:bg-pink-500"
+      ></div>
+    </div>
+    <div style="text-align: center">
+      di bawah ini adalah conton transform yangada elemen pembungkusnya,
+      sehingga tidak menyebabkan elemen akan patah-patah walaupun kursor tidak
+      pada posisi yang tepat
+      <div class="group mx-auto my-10 h-40 w-40">
+        <div
+          class="mx-auto my-10 h-40 w-40 rounded-lg bg-sky-400 shadow-lg transition group-hover:translate-x-40 group-hover:rotate-45 group-hover:scale-150 group-hover:bg-pink-500"
+        ></div>
+      </div>
+    </div>
+
+    <div
+      class="mx-auto my-10 h-40 w-40 animate-spin rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+
+    <div
+      class="mx-auto my-10 h-40 w-40 animate-spin-slow rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+    <div
+      class="mx-auto my-10 mt-40 h-40 w-40 animate-ping rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+
+    <div
+      class="mx-auto my-10 mt-20 h-40 w-40 animate-pulse rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+    <div
+      class="mx-auto my-10 mt-20 h-40 w-40 animate-bounce rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+
+    <div
+      class="mx-auto my-10 mt-20 h-40 w-40 animate-goyang rounded-lg bg-pink-400 shadow-lg"
+    ></div>
+
+    <hr class="my-8" />
+    <!-- Membuat font yang melingkari gambar -->
+
+    <div class="container mx-auto px-8">
+      <!-- tombol interactive close -->
+      <div class="relative rounded-lg border px-10 py-2">
+        <div class="group">
+          <div
+            class="absolute -right-5 -top-5 flex h-10 w-10 cursor-pointer rounded-full bg-red-200 group-hover:scale-150 dark:bg-white"
+          >
+            <span class="text m-auto">❌</span>
+          </div>
+        </div>
+        <!-- membuat tombol interactive scrol otomatis keatas -->
+        <div class="group">
+          <div
+            class="fixed bottom-5 right-6 flex h-10 w-10 cursor-pointer rounded-full bg-sky-100 group-hover:scale-150 dark:bg-white"
+          >
+            <a href="#" class="m-auto"> ⬆️ </a>
+          </div>
+        </div>
+        <!-- otomatis kebawah -->
+        <div class="group">
+          <div
+            class="fixed right-1 top-5 flex h-10 w-10 cursor-pointer rounded-full bg-sky-100 group-hover:scale-150 dark:bg-white"
+          >
+            <a href="#down" class="m-auto"> ⬇️ </a>
+          </div>
+        </div>
+
+        <img
+          src="img/3.jpg"
+          alt="laptop"
+          width="150"
+          class="float-left mx-5 my-5 rounded-lg"
+        />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi a
+          sapiente rerum sed mollitia amet! Architecto excepturi culpa autem
+          necessitatibus deserunt totam iusto alias at provident delectus earum,
+          ullam quis. Distinctio, deleniti aliquam! Illum sed rem voluptate amet
+          mollitia fuga vitae quasi nobis! Voluptatibus veritatis necessitatibus
+          ipsa similique harum fuga sed natus dignissimos quia consequuntur
+          possimus error, debitis quis voluptas, placeat rem incidunt quibusdam,
+          esse quidem unde? Quia explicabo minima mollitia quam quo illum fugit?
+          Fugit consequuntur, excepturi aut unde consequatur suscipit eaque nam
+          beatae, temporibus ea possimus? Nemo perspiciatis officia officiis in
+          repudiandae maiores nulla nostrum nihil autem. Soluta!
+        </p>
+      </div>
+    </div>
+    <hr class="my-8" />
+    <!-- Membuat colom secara otomatis -->
+    <div
+      class="container mx-auto mt-20 columns-2 rounded-lg border p-10 shadow-lg"
+    >
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+      <img src="img/1.jpg" alt="image" class="mb-4" />
+    </div>
+    <hr class="my-5" />
+    <!-- Belajar Responsive Disgn -->
+    <div
+      class="container mx-auto max-w-lg rounded-lg p-5 sm:bg-sky-300 md:bg-green-300 lg:bg-pink-300 xl:bg-orange-300 2xl:bg-slate-500"
+    >
+      <h3 class="font-serif text-4xl font-bold">Rizwan Maulana</h3>
+      <img src="img/1.jpg" alt="kantor" class="mt-4 rounded-xl shadow-xl" />
+      <h2 class="text-2xl font-semibold">Mari belajar Renponsive Disgn</h2>
+      <p class="mt-2 text-slate-600">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas
+        laudantium inventore, doloribus ex impedit quos qui iusto maxime iste
+        vitae, saepe aperiam aliquam sunt incidunt officiis veritatis?
+        Quibusdam, quidem.
+      </p>
+      <div class="mt-4">
+        <a
+          href="#"
+          class="inline-block rounded-lg bg-red-600 px-5 py-2 text-sm uppercase tracking-wider text-white"
+          >Subscribe chanel youtube</a
+        >
+      </div>
+    </div>
+
+    <hr class="my-4" />
+    <!-- Belajar Responsive Disgn -->
+    <div
+      class="container mx-auto max-w-md rounded-lg p-5 font-inter sm:max-w-xl md:max-w-5xl"
+    >
+      <h3 class="text-4xl font-bold sm:text-5xl md:text-5xl">Rizwan Maulana</h3>
+      <img
+        src="img/2.jpg"
+        alt="kantor"
+        class="sm:obeject-center obeject-center mt-4 h-40 w-full rounded-xl object-cover shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover"
+      />
+      <h2 class="text-2xl font-semibold">Mari belajar Renponsive Disgn</h2>
+      <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas
+        laudantium inventore, doloribus ex impedit quos qui iusto maxime iste
+        vitae, saepe aperiam aliquam sunt incidunt officiis veritatis?
+        Quibusdam, quidem.
+      </p>
+      <div class="mt-4 sm:mt-6">
+        <a
+          href="#"
+          class="inline-block rounded-lg bg-red-600 px-5 py-2 text-sm uppercase tracking-wider text-white sm:text-base"
+          >Subscribe chanel youtube</a
+        >
+      </div>
+    </div>
+
+    <hr class="hy-5" />
+    <!-- Belajar Display Flex & Box -->
+
+    <div
+      class="container mx-auto max-w-md rounded-lg px-5 font-inter sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0"
+    >
+      <div class="lg:flex-1 lg:p-12">
+        <h3 class="text-4xl font-bold sm:text-5xl md:text-6xl">Rizwan Maula</h3>
+        <img
+          src="img/2.jpg"
+          alt="kantor"
+          class="sm:obeject-center obeject-center mt-4 h-40 w-full rounded-xl object-cover shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover lg:hidden"
+        />
+        <h2 class="mt-6 text-2xl font-semibold sm:mt-4 sm:text-4xl">
+          Mari belajar Renponsive Disgn bersama kita
+        </h2>
+        <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas
+          laudantium inventore, doloribus ex impedit quos qui iusto maxime iste
+          vitae, saepe aperiam aliquam sunt incidunt officiis veritatis?
+          Quibusdam, quidem.
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            href="#"
+            class="inline-block rounded-lg bg-red-600 px-5 py-2 text-sm uppercase tracking-wider text-white sm:text-base"
+            >Subscribe chanel youtube</a
+          >
+        </div>
+      </div>
+      <div class="hidden lg:flex lg:w-1/2">
+        <img src="img/2.jpg" alt="Laptop" class="rounded-l-3xl object-cover" />
+      </div>
+    </div>
+
+    <!-- Membuat Galerry -->
+    <h2 class="mb-10 mt-24 text-center text-3xl font-bold text-slate-700">
+      My gallery
+    </h2>
+    <!-- COntainer-->
+    <div
+      class="container mx-auto px-6 font-inter sm:flex sm:flex-wrap sm:justify-evenly sm:gap-4"
+    >
+      <!-- 1 -->
+      <div
+        class="mb-10 overflow-hidden rounded-md bg-white shadow-lg sm:mb-0 sm:w-64 md:w-80 lg:w-72"
+      >
+        <img
+          src="https://source.unsplash.com/1000x600?computer"
+          alt="gambar"
+          class="w-full"
+        />
+        <div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            eos!
+          </p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div
+        class="mb-10 overflow-hidden rounded-md bg-white shadow-lg sm:mb-0 sm:w-64 md:w-80 lg:w-72"
+      >
+        <img
+          src="https://source.unsplash.com/1000x600?computer"
+          alt="gambar"
+          class="w-full"
+        />
+        <div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            eos!
+          </p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div
+        class="mb-10 overflow-hidden rounded-md bg-white shadow-lg sm:mb-0 sm:w-64 md:w-80 lg:w-72"
+      >
+        <img
+          src="https://source.unsplash.com/1000x600?computer"
+          alt="gambar"
+          class="w-full"
+        />
+        <div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            eos!
+          </p>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div
+        class="mb-10 overflow-hidden rounded-md bg-white shadow-lg sm:mb-0 sm:w-64 md:w-80 lg:w-72"
+      >
+        <img
+          src="https://source.unsplash.com/1000x600?computer"
+          alt="gambar"
+          class="w-full"
+        />
+        <div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            eos!
+          </p>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div
+        class="mb-10 overflow-hidden rounded-md bg-white shadow-lg sm:mb-0 sm:w-64 md:w-80 lg:w-72"
+      >
+        <img
+          src="https://source.unsplash.com/1000x600?computer"
+          alt="gambar"
+          class="w-full"
+        />
+        <div>
+          <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            eos!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-10" />
+    <!-- membuat tampilan fotogrid Menggunakan grid -->
+
+    <div
+      class="mt-64 grid grid-cols-2 gap-2 p-2 font-inter md:grid-cols-4 md:gap-4 md:p-4"
+    >
+      <h2
+        class="h-15 text-xl font-semibold text-slate-700 dark:text-white md:col-start-4 md:row-start-2 md:flex"
+      >
+        <span class="self-center">Welcome to wpu</span>
+      </h2>
+      <div
+        class="h-15 text-lg font-bold text-slate-600 dark:text-white md:col-start-2 md:row-start-2 md:flex"
+      >
+        <span class="self-end"> @rizwanmaulana</span>
+      </div>
+      <!-- 1 -->
+      <div class="grid-card group">
+        <div class="grid-card-img bg-[url('../img/10.jpeg')]"></div>
+      </div>
+      <!-- 2 -->
+      <div class="grid-card group md:col-start-3">
+        <div class="grid-card-img bg-[url('../img/11.jpeg')]"></div>
+      </div>
+      <!-- 3 -->
+      <div class="grid-card group">
+        <div class="grid-card-img bg-[url('../img/12.jpeg')]"></div>
+      </div>
+      <!-- 4 -->
+      <div class="grid-card group">
+        <div class="grid-card-img bg-[url('../img/13.jpeg')]"></div>
+      </div>
+      <!-- 5 -->
+      <div class="grid-card group">
+        <div class="grid-card-img bg-[url('../img/14.jpeg')]"></div>
+      </div>
+      <!-- 6 -->
+      <div class="grid-card group md:col-start-2">
+        <div class="grid-card-img bg-[url('../img/15.jpeg')]"></div>
+      </div>
+      <!-- 7 -->
+      <div class="grid-card group md:col-start-4">
+        <div class="grid-card-img bg-[url('../img/16.jpeg')]"></div>
+      </div>
+      <!-- 8 -->
+      <div class="grid-card group">
+        <div class="grid-card-img bg-[url('../img/17.jpeg')]"></div>
+      </div>
+      <!-- 9 -->
+      <div class="grid-card group md:col-start-3">
+        <div class="grid-card-img bg-[url('../img/18.jpeg')]"></div>
+      </div>
+      <!-- 10 -->
+      <div class="grid-card group md:col-start-3">
+        <div class="grid-card-img bg-[url('../img/19.jpeg')]"></div>
+      </div>
+    </div>
+
+    <h1>Hello world</h1>
+
+    <div class="mb-96" id="down"></div>
+    <!-- Script untuk dark mode -->
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+      checkbox.addEventListener("click", function () {
+        checkbox.cheked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+      });
+    </script>
+  </body>
+</html>
